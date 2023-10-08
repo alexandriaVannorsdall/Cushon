@@ -15,7 +15,8 @@ in the future.
 
 ### Brief and simplified example of the database design
 
-[dbDesign.pdf](..%2F..%2FDesktop%2FdbDesign.pdf)
+![dbDesign](https://github.com/alexandriaVannorsdall/Cushon/assets/81317157/48e42289-9847-4d6c-85fc-10f47341f1b8)
+
 
 ### Assumptions
 - Funds are only in GBP.
