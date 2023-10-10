@@ -8,7 +8,7 @@ use App\Models\Accounts;
 
 class AccountsSeeder extends Seeder
 {
-    public function run()
+    public function run(): void
     {
         $count = 10;
 

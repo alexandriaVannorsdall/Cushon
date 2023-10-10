@@ -11,11 +11,15 @@ return new class extends Migration
      */
     public function up(): void
     {
+        Schema::dropIfExists('customers');
+
         Schema::create('customers', function (Blueprint $table) {
             $table->id();
             $table->string('account_name');
             $table->integer('account_id')->unique();
+            $table->unsignedBigInteger('customer_id');
             $table->timestamps();
+
         });
     }
 

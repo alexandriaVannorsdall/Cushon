@@ -33,6 +33,7 @@ class Customer extends Model
         $validatedData = Validator::make($data, [
             'account_name' => 'required',
             'account_id' => 'required|unique:customers',
+            'customer_id' => 'required|unique:customers',
         ])->validate();
 
         return self::query()->create($validatedData);

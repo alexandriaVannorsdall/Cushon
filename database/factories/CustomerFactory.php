@@ -22,6 +22,7 @@ class CustomerFactory extends Factory
         return [
             'account_name' => $this->faker->word,
             'account_id' => $this->faker->unique()->numberBetween(1, 100),
+            'customer_id' => $this->faker->numberBetween(1, 100),
         ];
     }
 }
