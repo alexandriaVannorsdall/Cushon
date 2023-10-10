@@ -31,7 +31,7 @@ in the future.
 - If the users are not yet authenticated then they must be for security purposes. 
 - I have created a CustomerController to edit the user using basic CRUD elements. This can be expanded on and utilized
 if necessary. 
-- Controllers for the funds and isaAccounts could also be made if there is logic that is needing to be acted on in those
+- Controller for funds could also be made if there is logic that is needing to be acted on in those
 areas.
 
 ##### Models Created:
