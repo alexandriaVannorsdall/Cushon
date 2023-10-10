@@ -17,7 +17,6 @@ return new class extends Migration
             $table->id();
             $table->string('account_name');
             $table->integer('account_id')->unique();
-            $table->unsignedBigInteger('customer_id');
             $table->timestamps();
 
         });
